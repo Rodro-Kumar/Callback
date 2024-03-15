@@ -1,47 +1,47 @@
-// function one() {
-//   setTimeout(() => {
-//     console.log("one");
-//   }, 1000);
-// }
-// function two(callback) {
-//   setTimeout(() => {
-//     console.log("two");
-//     callback();
-//   }, 900);
-// }
-// function three(callback) {
-//   setTimeout(() => {
-//     console.log("three");
-//     callback();
-//   }, 600);
-// }
-// function four(callback) {
-//   setTimeout(() => {
-//     console.log("four");
-//     callback();
-//   }, 2000);
-// }
+function one() {
+  setTimeout(() => {
+    console.log("one");
+  }, 1000);
+}
+function two(callback) {
+  setTimeout(() => {
+    console.log("two");
+    callback();
+  }, 900);
+}
+function three(callback) {
+  setTimeout(() => {
+    console.log("three");
+    callback();
+  }, 600);
+}
+function four(callback) {
+  setTimeout(() => {
+    console.log("four");
+    callback();
+  }, 2000);
+}
 
-// four(function () {
-//   three(function () {
-//     two(function () {
-//       one();
-//     });
-//   });
-// });
+four(function () {
+  three(function () {
+    two(function () {
+      one();
+    });
+  });
+});
 
-// function one(callback) {
-//   console.log("one");
-//   callback();
-// }
+function one(callback) {
+  console.log("one");
+  callback();
+}
 
-// function two() {
-//   console.log("two");
-// }
+function two() {
+  console.log("two");
+}
 
-// one(function () {
-//   two();
-// });
+one(function () {
+  two();
+});
 
 // callback function
 
@@ -377,68 +377,68 @@
 
 // callback hell
 
-ten(function (r1) {
-  nine(function (r2) {
-    eight(function (r3) {
-      seven(function (r4) {
-        six(function (r5) {
-          five(function (r6) {
-            four(function (r7) {
-              three(function (r8) {
-                two(function (r9) {
-                  one(function (r10) {
-                    eleven(function (r11) {
-                      twelve(function (r12) {
-                        thirteen(function (r13) {
-                          fourteen(function (r14) {
-                            fifteen(function (r15) {
-                              sixteen(function (r16) {
-                                seventeen(function (r17) {
-                                  eighteen(function (r18) {
-                                    nienteen(function (r19) {
-                                      twenty(function (r20) {
-                                        twentyone(function (r21) {
-                                          twentytwo(function (r22) {
-                                            twentythree(function (r23) {
-                                              twentyfour(function (r24) {
-                                                twentyfive(function (r25) {
-                                                  twentysix(function (r26) {
-                                                    twentyseven(function (r27) {
-                                                      twentyeight(function (
-                                                        r28
-                                                      ) {
-                                                        twentynine(function (
-                                                          r29
-                                                        ) {
-                                                          thirty(r29);
-                                                        },
-                                                        r28);
-                                                      },
-                                                      r27);
-                                                    }, r26);
-                                                  }, r25);
-                                                }, r24);
-                                              }, r23);
-                                            }, r22);
-                                          }, r21);
-                                        }, r20);
-                                      }, r19);
-                                    }, r18);
-                                  }, r17);
-                                }, r16);
-                              }, r15);
-                            }, r14);
-                          }, r13);
-                        }, r12);
-                      }, r11);
-                    }, r10);
-                  }, r9);
-                }, r8);
-              }, r7);
-            }, r6);
-          }, r5);
-        }, r4);
-      }, r3);
-    }, r2);
-  }, r1);
-}, 10);
+// ten(function (r1) {
+//   nine(function (r2) {
+//     eight(function (r3) {
+//       seven(function (r4) {
+//         six(function (r5) {
+//           five(function (r6) {
+//             four(function (r7) {
+//               three(function (r8) {
+//                 two(function (r9) {
+//                   one(function (r10) {
+//                     eleven(function (r11) {
+//                       twelve(function (r12) {
+//                         thirteen(function (r13) {
+//                           fourteen(function (r14) {
+//                             fifteen(function (r15) {
+//                               sixteen(function (r16) {
+//                                 seventeen(function (r17) {
+//                                   eighteen(function (r18) {
+//                                     nienteen(function (r19) {
+//                                       twenty(function (r20) {
+//                                         twentyone(function (r21) {
+//                                           twentytwo(function (r22) {
+//                                             twentythree(function (r23) {
+//                                               twentyfour(function (r24) {
+//                                                 twentyfive(function (r25) {
+//                                                   twentysix(function (r26) {
+//                                                     twentyseven(function (r27) {
+//                                                       twentyeight(function (
+//                                                         r28
+//                                                       ) {
+//                                                         twentynine(function (
+//                                                           r29
+//                                                         ) {
+//                                                           thirty(r29);
+//                                                         },
+//                                                         r28);
+//                                                       },
+//                                                       r27);
+//                                                     }, r26);
+//                                                   }, r25);
+//                                                 }, r24);
+//                                               }, r23);
+//                                             }, r22);
+//                                           }, r21);
+//                                         }, r20);
+//                                       }, r19);
+//                                     }, r18);
+//                                   }, r17);
+//                                 }, r16);
+//                               }, r15);
+//                             }, r14);
+//                           }, r13);
+//                         }, r12);
+//                       }, r11);
+//                     }, r10);
+//                   }, r9);
+//                 }, r8);
+//               }, r7);
+//             }, r6);
+//           }, r5);
+//         }, r4);
+//       }, r3);
+//     }, r2);
+//   }, r1);
+// }, 10);
