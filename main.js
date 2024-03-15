@@ -166,214 +166,217 @@
 //   }, r1);
 // }, 10);
 
-function one(callback, value) {
-  setTimeout(() => {
-    console.log("one");
-    callback(value + 10);
-  }, 1000);
-}
+// function one(callback, value) {
+//   setTimeout(() => {
+//     console.log("one");
+//     callback(value + 10);
+//   }, 1000);
+// }
 
-function two(callback, value) {
-  setTimeout(() => {
-    console.log("two");
-    callback(value + 10);
-  }, 1000);
-}
+// function two(callback, value) {
+//   setTimeout(() => {
+//     console.log("two");
+//     callback(value + 10);
+//   }, 1000);
+// }
 
-function three(callback, value) {
-  setTimeout(() => {
-    console.log("three");
-    callback(value + 10);
-  }, 1000);
-}
+// function three(callback, value) {
+//   setTimeout(() => {
+//     console.log("three");
+//     callback(value + 10);
+//   }, 1000);
+// }
 
-function four(callback, value) {
-  setTimeout(() => {
-    console.log("four");
-    callback(value + 10);
-  }, 200);
-}
+// function four(callback, value) {
+//   setTimeout(() => {
+//     console.log("four");
+//     callback(value + 10);
+//   }, 200);
+// }
 
-function five(callback, value) {
-  setTimeout(() => {
-    console.log("five");
-    callback(value + 10);
-  }, 2000);
-}
+// function five(callback, value) {
+//   setTimeout(() => {
+//     console.log("five");
+//     callback(value + 10);
+//   }, 2000);
+// }
 
-function six(callback, value) {
-  setTimeout(() => {
-    console.log("six");
-    callback(value + 10);
-  }, 2000);
-}
+// function six(callback, value) {
+//   setTimeout(() => {
+//     console.log("six");
+//     callback(value + 10);
+//   }, 2000);
+// }
 
-function seven(callback, value) {
-  setTimeout(() => {
-    console.log("seven");
-    callback(value + 10);
-  }, 2000);
-}
+// function seven(callback, value) {
+//   setTimeout(() => {
+//     console.log("seven");
+//     callback(value + 10);
+//   }, 2000);
+// }
 
-function eight(callback, value) {
-  setTimeout(() => {
-    console.log("eight");
-    callback(value + 10);
-  }, 2000);
-}
+// function eight(callback, value) {
+//   setTimeout(() => {
+//     console.log("eight");
+//     callback(value + 10);
+//   }, 2000);
+// }
 
-function nine(callback, value) {
-  setTimeout(() => {
-    console.log("nine");
-    callback(value + 10);
-  }, 2000);
-}
+// function nine(callback, value) {
+//   setTimeout(() => {
+//     console.log("nine");
+//     callback(value + 10);
+//   }, 2000);
+// }
 
-function ten(callback, value) {
-  setTimeout(() => {
-    console.log("ten");
-    callback(value + 10);
-  }, 2000);
-}
+// function ten(callback, value) {
+//   setTimeout(() => {
+//     console.log("ten");
+//     callback(value + 10);
+//   }, 2000);
+// }
 
-function eleven(callback, value) {
-  setTimeout(() => {
-    console.log("eleven");
-    callback(value + 10);
-  }, 300);
-}
+// function eleven(callback, value) {
+//   setTimeout(() => {
+//     console.log("eleven");
+//     callback(value + 10);
+//   }, 300);
+// }
 
-function twelve(callback, value) {
-  setTimeout(() => {
-    console.log("twelve");
-    callback(value + 10);
-  }, 300);
-}
+// function twelve(callback, value) {
+//   setTimeout(() => {
+//     console.log("twelve");
+//     callback(value + 10);
+//   }, 300);
+// }
 
-function thirteen(callback, value) {
-  setTimeout(() => {
-    console.log("thirteen");
-    callback(value + 10);
-  }, 300);
-}
+// function thirteen(callback, value) {
+//   setTimeout(() => {
+//     console.log("thirteen");
+//     callback(value + 10);
+//   }, 300);
+// }
 
-function fourteen(callback, value) {
-  setTimeout(() => {
-    console.log("fourteen");
-    callback(value + 10);
-  }, 300);
-}
+// function fourteen(callback, value) {
+//   setTimeout(() => {
+//     console.log("fourteen");
+//     callback(value + 10);
+//   }, 300);
+// }
 
-function fifteen(callback, value) {
-  setTimeout(() => {
-    console.log("fifteen");
-    callback(value + 10);
-  }, 300);
-}
+// function fifteen(callback, value) {
+//   setTimeout(() => {
+//     console.log("fifteen");
+//     callback(value + 10);
+//   }, 300);
+// }
 
-function sixteen(callback, value) {
-  setTimeout(() => {
-    console.log("sixteen");
-    callback(value + 10);
-  }, 300);
-}
+// function sixteen(callback, value) {
+//   setTimeout(() => {
+//     console.log("sixteen");
+//     callback(value + 10);
+//   }, 300);
+// }
 
-function seventeen(callback, value) {
-  setTimeout(() => {
-    console.log("seventeen");
-    callback(value + 10);
-  }, 300);
-}
+// function seventeen(callback, value) {
+//   setTimeout(() => {
+//     console.log("seventeen");
+//     callback(value + 10);
+//   }, 300);
+// }
 
-function eighteen(callback, value) {
-  setTimeout(() => {
-    console.log("eighteen");
-    callback(value + 10);
-  }, 300);
-}
+// function eighteen(callback, value) {
+//   setTimeout(() => {
+//     console.log("eighteen");
+//     callback(value + 10);
+//   }, 300);
+// }
 
-function nienteen(callback, value) {
-  setTimeout(() => {
-    console.log("nienteen");
-    callback(value + 10);
-  }, 300);
-}
+// function nienteen(callback, value) {
+//   setTimeout(() => {
+//     console.log("nienteen");
+//     callback(value + 10);
+//   }, 300);
+// }
 
-function twenty(callback, value) {
-  setTimeout(() => {
-    console.log("twenty");
-    callback(value + 10);
-  }, 300);
-}
+// function twenty(callback, value) {
+//   setTimeout(() => {
+//     console.log("twenty");
+//     callback(value + 10);
+//   }, 300);
+// }
 
-function twentyone(callback, value) {
-  setTimeout(() => {
-    console.log("twentyone");
-    callback(value + 10);
-  }, 300);
-}
+// function twentyone(callback, value) {
+//   setTimeout(() => {
+//     console.log("twentyone");
+//     callback(value + 10);
+//   }, 300);
+// }
 
-function twentytwo(callback, value) {
-  setTimeout(() => {
-    console.log("twentytwo");
-    callback(value + 10);
-  }, 300);
-}
+// function twentytwo(callback, value) {
+//   setTimeout(() => {
+//     console.log("twentytwo");
+//     callback(value + 10);
+//   }, 300);
+// }
 
-function twentythree(callback, value) {
-  setTimeout(() => {
-    console.log("twentythree");
-    callback(value + 10);
-  }, 300);
-}
+// function twentythree(callback, value) {
+//   setTimeout(() => {
+//     console.log("twentythree");
+//     callback(value + 10);
+//   }, 300);
+// }
 
-function twentyfour(callback, value) {
-  setTimeout(() => {
-    console.log("twentyfour");
-    callback(value + 10);
-  }, 300);
-}
+// function twentyfour(callback, value) {
+//   setTimeout(() => {
+//     console.log("twentyfour");
+//     callback(value + 10);
+//   }, 300);
+// }
 
-function twentyfive(callback, value) {
-  setTimeout(() => {
-    console.log("twentyfive");
-    callback(value + 10);
-  }, 300);
-}
+// function twentyfive(callback, value) {
+//   setTimeout(() => {
+//     console.log("twentyfive");
+//     callback(value + 10);
+//   }, 300);
+// }
 
-function twentysix(callback, value) {
-  setTimeout(() => {
-    console.log("twentysix");
-    callback(value + 10);
-  }, 300);
-}
+// function twentysix(callback, value) {
+//   setTimeout(() => {
+//     console.log("twentysix");
+//     callback(value + 10);
+//   }, 300);
+// }
 
-function twentyseven(callback, value) {
-  setTimeout(() => {
-    console.log("twentyseven");
-    callback(value + 10);
-  }, 300);
-}
+// function twentyseven(callback, value) {
+//   setTimeout(() => {
+//     console.log("twentyseven");
+//     callback(value + 10);
+//   }, 300);
+// }
 
-function twentyeight(callback, value) {
-  setTimeout(() => {
-    console.log("twentyeight");
-    callback(value + 10);
-  }, 300);
-}
+// function twentyeight(callback, value) {
+//   setTimeout(() => {
+//     console.log("twentyeight");
+//     callback(value + 10);
+//   }, 300);
+// }
 
-function twentynine(callback, value) {
-  setTimeout(() => {
-    console.log("twentynine");
-    callback(value + 10);
-  }, 300);
-}
+// function twentynine(callback, value) {
+//   setTimeout(() => {
+//     console.log("twentynine");
+//     callback(value + 10);
+//   }, 300);
+// }
 
-function thirty(finalData) {
-  setTimeout(() => {
-    console.log("thirty", finalData);
-  }, 300);
-}
+// function thirty(finalData) {
+//   setTimeout(() => {
+//     console.log("thirty", finalData);
+//   }, 300);
+// }
+
+// callback hell
+
 ten(function (r1) {
   nine(function (r2) {
     eight(function (r3) {
